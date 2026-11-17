@@ -5,3 +5,5 @@ mkdir -p logs/old_logs
 touch logs/app.log logs/error.log logs/old_logs/app_old.log
 
 find . -type f -name "*.log"
+
+find . -type f -name "*.log" | wc -l
